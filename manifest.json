@@ -1,0 +1,55 @@
+{
+  "name": "E-Prashadam",
+  "short_name": "EPrashadam",
+  "description": "Divine Prasadam delivered to your doorstep from 12 Jyotirlingas and sacred Dhams",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8DC",
+  "theme_color": "#8B4513",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1536093059670-8d6be2be30f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=192&q=80",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1536093059670-8d6be2be30f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=512&q=80",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "food", "lifestyle", "religion"],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1536093059670-8d6be2be30f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=640&q=80",
+      "sizes": "640x320",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "E-Prashadam Home Screen"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Temples",
+      "short_name": "Temples",
+      "description": "View all 12 Jyotirlingas and Dhams",
+      "url": "/#temples"
+    },
+    {
+      "name": "My Cart",
+      "short_name": "Cart",
+      "description": "View your cart items",
+      "url": "/#cart"
+    },
+    {
+      "name": "Order History",
+      "short_name": "Orders",
+      "description": "View your past orders",
+      "url": "/#orders"
+    }
+  ],
+  "prefer_related_applications": false
+}
